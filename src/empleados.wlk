@@ -76,13 +76,13 @@ object galvan
 }
 
 /* Tener en cuenta este escenario
-    Baigorria arranca con 15000 de sueldo, deuda en 0, dinero en 0.
-    Baigorria gasta 4000, totalDeuda() debe ser 4000, totalDinero() debe ser 0.
-    Baigorria gasta otros 8000, totalDeuda() pasa a 12000, totalDinero() sigue en 0.
-    Baigorria cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000 pesos. 
-    * Por lo tanto, totalDeuda() debe ser 0, y totalDinero() debe ser 3000.
-    Baigorria gasta 25000, cubre 3000 con el dinero que tiene, el resto es deuda. 
-    * totalDeuda() queda en 22000, totalDinero() en 0.
-    Baigorria cobra, tiene que dedicar los 15000 a pagar deudas, y no le alcanza. 
-    * Ahora, totalDeuda() pasa a 7000, y totalDinero() a 0.
+1.    Baigorria arranca con 15000 de sueldo, deuda en 0, dinero en 0.
+2.    Baigorria gasta 4000, totalDeuda() debe ser 4000, totalDinero() debe ser 0.
+3.    Baigorria gasta otros 8000, totalDeuda() pasa a 12000, totalDinero() sigue en 0.
+4.    Baigorria cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000 pesos. 
+      Por lo tanto, totalDeuda() debe ser 0, y totalDinero() debe ser 3000.
+5.    Baigorria gasta 25000, cubre 3000 con el dinero que tiene, el resto es deuda. 
+      totalDeuda() queda en 22000, totalDinero() en 0.
+6.    Baigorria cobra, tiene que dedicar los 15000 a pagar deudas, y no le alcanza. 
+      Ahora, totalDeuda() pasa a 7000, y totalDinero() a 0.
  */
