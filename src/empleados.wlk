@@ -27,6 +27,7 @@ object baigorria {
 		cantidadEmpanadasVendidas += 1
 	}
 	
+	/* Si el saldo es mayor al gasto, entonces resto el gasto con el saldo */
 	method gastar(cuanto)
 	{
 		if ( saldo < cuanto )
