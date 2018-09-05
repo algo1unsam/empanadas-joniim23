@@ -12,6 +12,8 @@ test "sueldo de Gimenez"
 	assert.equals(30000, gimenez.totalCobrado())
 }
 
+// bien los test, para la próxima, conviene separarlos un toque
+// menos pruebas, mas "unitarias" y mas cantidad
 test "Manejo fino de las finanzas de Baigorria"
 {
 	baigorria.gastar(4000)
